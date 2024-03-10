@@ -1,0 +1,134 @@
+.main{
+    width: 50vw;
+    height: 50vh;
+    position: absolute;
+}
+
+#main1{
+    background-color: red;
+}
+
+#main2{
+    background-color: green;
+    right: 0;
+}
+
+#main3{
+    background-color: orange;
+    bottom: 0;
+}
+
+#main4{
+    background-color: deeppink;
+    right: 0;
+    bottom: 0;
+}
+
+#mid{
+    width: 15vw;
+    aspect-ratio: 1/1;
+
+    background-color: white;
+    position: absolute;
+
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
+#mid>div{
+    width: 10vw;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+
+    background-color: red;
+
+    position: absolute;
+
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
+.main>div{
+    width: 15vw;
+    aspect-ratio: 1/1;
+    background-color: white;
+    border-radius: 100%;
+
+    position: absolute;
+
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
+.main>div>div{
+    width: 8vw;
+    aspect-ratio: 1/1;
+    background-color: red;
+
+    position: absolute;
+
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
+.corner{
+    width: 10vw;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+
+    background-color: white;
+
+    position: absolute;
+}
+#corner1{
+    left: -5vw;
+    top: -5vw;
+}
+
+#corner2{
+    right: -5vw;
+    top: -5vw;
+}
+
+#corner3{
+    left: -5vw;
+    bottom: -5vw;
+}
+
+#corner4{
+    right: -5vw;
+    bottom: -5vw;
+}
+
+#corner5{
+    top: -5vw;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+#corner6{
+    left: 0;
+    right: 0;
+    bottom: -5vw;
+    margin: auto;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}

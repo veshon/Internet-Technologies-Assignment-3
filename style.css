@@ -1,0 +1,8 @@
+section>div{
+    background: red;
+    width: 100px;
+    aspect-ratio: 1/1;
+
+    position: sticky;
+    top: 0;
+}

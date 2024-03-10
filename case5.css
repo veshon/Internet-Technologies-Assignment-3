@@ -1,0 +1,71 @@
+section{
+    width: 1200px;
+    height: 500px;
+    background-color: yellow;
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr) ;
+    grid-template-rows: repeat(3, 1fr) ;
+}
+
+
+#div1{
+    border: 1px solid blue;
+    background-color: red;
+}
+
+#div2{
+    border: 1px solid blue;
+    background-color: green;
+}
+
+#div3{
+    border: 1px solid blue;
+    background-color: orange;
+}
+
+#div4{
+    border: 1px solid blue;
+    background-color: purple;
+}
+
+#div5{
+    border: 1px solid blue;
+    background-color: deeppink;
+}
+
+#div6{
+    border: 1px solid blue;
+    background-color: blue;
+}
+
+#div7{
+    border: 1px solid blue;
+    background-color: brown;
+}
+
+#div8{
+    border: 1px solid blue;
+    background-color: mediumpurple;
+}
+
+#div9{
+    border: 1px solid blue;
+    background-color: purple;
+}
+
+#div10{
+    border: 1px solid blue;
+    background-color: yellow;
+}
+
+#div11{
+    border: 1px solid blue;
+    background-color: gray;
+}
+
+#div12{
+    border: 1px solid blue;
+    background-color: aqua;
+}

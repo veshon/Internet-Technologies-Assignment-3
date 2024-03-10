@@ -1,0 +1,116 @@
+.notfixed1{
+    width: 10vw;
+    aspect-ratio: 1/1;
+    border-radius: 200%;
+    background-color: purple;
+
+    position: absolute;
+
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.notfixed2{
+    width: 10vw;
+    aspect-ratio: 1/1;
+    border-radius: 500%;
+    background-color: cornflowerblue;
+
+    position: absolute;
+
+    right: 0;
+    left: 0;
+    top: 700px;
+    bottom: 0;
+    margin: auto;
+}
+
+.notfixed3{
+    width: 10vw;
+    aspect-ratio: 1/1;
+    border-radius: 500%;
+    background-color: #ff6453;
+
+    position: absolute;
+
+    right: 0;
+    left: 0;
+    top: 1200px;
+    bottom: 0;
+    margin: auto;
+}
+
+.notfixed4{
+    width: 10vw;
+    aspect-ratio: 1/1;
+    border-radius: 500%;
+    background-color: orange;
+
+    position: absolute;
+
+    right: 0;
+    left: 0;
+    top: 2000px;
+    bottom: 0;
+    margin: auto;
+}
+
+.outer1{
+
+    -moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 100%; border: 7px solid red; margin:5px; width: 10vw; aspect-ratio: 1/1;
+
+    position: fixed;
+
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.outer2{
+
+    -moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 100%; border: 7px solid gray; margin:5px; width: 11vw; aspect-ratio: 1/1;
+
+    position: fixed;
+
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+section>div>h4{
+    position: absolute;
+
+    left: 48px;
+    top: 35px;
+    color: white;
+}
+
+section>div:nth-child(2)>h4{
+    position: absolute;
+    /*font-family: "Arial Rounded MT Bold";*/
+    left: 18px;
+    top: 40px;
+    color: white;
+}
+
+section>div:nth-child(3)>h4{
+    position: absolute;
+
+    left: 20px;
+    top: 20px;
+    color: white;
+}
+
+h4{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
